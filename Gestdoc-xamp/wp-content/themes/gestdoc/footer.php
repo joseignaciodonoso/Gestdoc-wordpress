@@ -18,19 +18,14 @@
             <div class="col-md-6">
               <div class="col-md-4 col-xs-12">
                 <div class="footer__links">
-                  <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Personas</a></li>
-                    <li><a href="#">Empresas</a></li>
-                    <li><a href="#">Tramites</a></li>
-                  </ul>
+                 <?php wp_nav_menu(array('theme_location'=>'top-menu', 'container' =>'ul')); ?>
                 </div>
               </div>
               <div class="col-md-4 col-xs-12">
                 <div class="footer__links">
                   <ul>
                     <li><a href="faq.html">Preguntas frecuentes</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="<?php echo site_url( '/Contacto/' ); ?>">Contacto</a></li>
                   </ul>
                 </div>
               </div>
@@ -45,15 +40,10 @@
             </div>
           </div>
           <div class="col-md-6 col-xs-12">
-            <div class="footer__button"><a href="" class="btn">Contactanos </a></div>
+            <div class="footer__button"><a href="<?php echo site_url( '/Contacto/' ); ?>" class="btn">Contactanos </a></div>
           </div>
           <div class="col-md-6 col-xs-12">
             <div class="footer__socials">
-              <ul>
-                <li> <a href="#"><span class="fa fa-facebook"></span></a></li>
-                <li> <a href="#"><span class="fa fa-instagram"></span></a></li>
-                <li> <a href="#"><span class="fa fa-youtube"></span></a></li>
-              </ul>
             </div>
           </div>
           <!--.col-md-12 

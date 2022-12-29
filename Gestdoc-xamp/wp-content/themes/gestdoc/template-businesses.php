@@ -106,7 +106,7 @@
                   </div>  
                     <div class="article__body"><?php echo $carta['lista_plan']; ?></div>
                     <div class="article__footer"> 
-                      <div class="article__price"><span class="article__price"><?php echo $carta['precio_plan']; ?></span><span class="article__month">/mes</span></div><a href="#" class="btn btn--plan"><?php echo $carta['boton_plan']; ?></a>
+                      <div class="article__price"><span class="article__price"><?php echo $carta['precio_plan']; ?></span><span class="article__month">/mes</span></div><a href="<?php echo site_url( '/Contacto/' ); ?>" class="btn btn--plan"><?php echo $carta['boton_plan']; ?></a>
                     </div>
                   </article>
                 </div>
@@ -118,17 +118,17 @@
               </div>
             </div>
           </div>
-          <div class="section__footer"><a href="#" class="btn">Solicita tu demo</a></div>
+          <div class="section__footer"><a href="<?php echo site_url( '/Contacto/' ); ?>" class="btn">Solicita tu demo</a></div>
         </div>
       </section>
       <section class="section--partners">
         <div class="section__wrap"> 
-        <article class="article--partners">
-            <div class="article__image"><img src="<?php echo get_template_directory_uri(); ?>/img/logos/ecert.png"></div>
-            <div class="article__image">		<img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-upayments.svg"></div>
-            <div class="article__image"><img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-alc-logo.png"></div>
-            <div class="article__image article__image--resit"><img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-resit-white.png"></div>
-            <div class="article__image"><img src="<?php echo get_template_directory_uri(); ?>/img/logos/digevo-logo.png"></div>
+          <article class="article--partners">
+            <div class="article__image"><img src="<?php echo get_field('partner_1'); ?>"></div>
+            <div class="article__image"><img src="<?php echo get_field('partner_2'); ?>"></div>
+            <div class="article__image"><img src="<?php echo get_field('partner_3'); ?>"></div>
+            <div class="article__image article__image--resit"><img src="<?php echo get_field('partner_4_resit'); ?>"></div>
+            <div class="article__image"><img src="<?php echo get_field('partner_5'); ?>"></div>
           </article>
         </div>
       </section>
@@ -162,10 +162,10 @@
       <section class="section--contactus"> 
         <div class="section__wrap"> 
           <div class="section__body">	
-            <h5 class="section__toptitle">No esperes mas</h5>
-            <h3 class="section__title">Te gustaria conocer todos los beneficios que Gestdoc puede traerle a tu negocio?</h3>
-            <p class="section__description">Hac enim augue molestie aptent libero aliquet nullam quisque sem. Aenean fermentum ut dictum tempor etiam eros dapibus iaculis dictumst interdum tellus fermentum dui aliquam feugiat hac sagittis tortor etiam.
-            </p><a href="#" class="btn">Contactanos</a>
+            <h5 class="section__toptitle"><?php the_field('encabezado_superior')?></h5>
+            <h3 class="section__title"><?php the_field('titulo_contacto')?></h3>
+            <p class="section__description"><?php the_field('parrafo_contacto')?>
+            </p><a href="<?php echo site_url( '/Contacto/' ); ?>" class="btn"><?php the_field('boton_contacto')?></a>
           </div>
         </div>
       </section>

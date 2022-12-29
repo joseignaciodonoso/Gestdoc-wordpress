@@ -36,7 +36,7 @@
           </div>
         </div>
       </section>
-      <section class="section--fast">
+      <!--<section class="section--fast">
         <div class="section__wrap section--md">
           <div class="section__header">
             <h3 class="h2 section__title">Documentos relacionados</h3>
@@ -83,6 +83,6 @@
           </div>
           <div class="section__footer"><a href="#" class="btn btn--link">Ver todos</a></div>
         </div>
-      </section>
+      </section> -->
 </div>
 <?php get_footer() ?>
