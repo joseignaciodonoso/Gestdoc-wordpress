@@ -12,7 +12,7 @@
         <div class="section__wrap section--md">
           <div class="section__body">
             <div class="section__content section--center">
-              <h3 class="section__title">En pocas palabras, ¿qué es?</h3>
+              <h3 class="section__title">Descripción del documento</h3>
               <p class="section__description">
               <p class="section__description"><?php the_field('descripcion')?></p>
             </div>
