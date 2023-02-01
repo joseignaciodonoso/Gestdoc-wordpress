@@ -15,6 +15,9 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" rel="shortcut icon">
+  <link rel="stylesheet" href="https://admin.alcsa.cl/im_livechat/external_lib.css"/>
+  <script type="text/javascript" src="https://admin.alcsa.cl/im_livechat/external_lib.js"></script>
+  <script type="text/javascript" src="https://admin.alcsa.cl/im_livechat/loader/1"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/main.js?v=89667" type="text/javascript"></script>
